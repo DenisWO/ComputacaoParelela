@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da017c9c-12e1-4756-829e-76e80a05f54a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClienteRMI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteRMI/src/ClienteCalculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_33_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/connection/MyConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/bean/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,52 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connection/MyConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/bean/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-              <folding>
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/dao/ClienteDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/server/ClienteService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1341">
-              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,9 +38,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>FALSE</find>
+      <find>PessoaRepository</find>
     </findStrings>
     <replaceStrings>
       <replace>false</replace>
+      <replace>Cliente</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -100,6 +55,7 @@
         <option value="$PROJECT_DIR$/src/view/Cliente.java" />
         <option value="$PROJECT_DIR$/src/model/bean/Cliente.java" />
         <option value="$PROJECT_DIR$/src/model/dao/ClienteDAO.java" />
+        <option value="$PROJECT_DIR$/src/server/ClienteService.java" />
       </list>
     </option>
   </component>
@@ -117,7 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,17 +89,42 @@
               <item name="REST" type="b2602c69:ProjectViewProjectNode" />
               <item name="REST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555460033078" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555545143307" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.33-bin.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -177,17 +157,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-6" width="1301" height="774" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940239" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25737053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -195,6 +173,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -210,6 +191,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/model/bean/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/dao/ClienteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/connection/MyConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -222,35 +220,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/bean/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/src/server/ClienteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-          <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/dao/ClienteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1341">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
