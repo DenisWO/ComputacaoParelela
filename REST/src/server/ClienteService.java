@@ -17,7 +17,7 @@ public class ClienteService {
     @Path("/cadastrar")
     public String inserir(Cliente cliente){
         ClienteDAO clienteDAO = new ClienteDAO();
-        
+
         try {
             clienteDAO.inserirCliente(cliente);
 
